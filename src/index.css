@@ -1,13 +1,68 @@
-body {
+* {
   margin: 0;
-  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
-    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
-    sans-serif;
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
+  /* padding: 0; */
+  box-sizing: border-box;
+  background-color: rgb(194, 194, 194);
+  font-family: "Ubuntu", sans-serif;
 }
 
-code {
-  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
-    monospace;
+h1 {
+  text-align: center;
+  background-color: rgb(249, 249, 249);
+  padding: 30px;
+  margin-top: -8px;
+  padding-top: 20px;
+}
+
+.card_img {
+  width: 335px;
+  height: 209px;
+  border-top-left-radius: 15px;
+  border-top-right-radius: 15px;
+  margin-left: 20px;
+  margin-top: 80px;
+}
+
+.card_info {
+  background-color: white;
+  width: 335px;
+  text-align: left;
+  padding: 20px;
+  margin-top: -4px;
+  border-bottom-left-radius: 15px;
+  border-bottom-right-radius: 15px;
+  margin-left: 20px;
+}
+
+.card_category {
+  background-color: white;
+  text-align: left;
+  margin-bottom: 10px;
+}
+
+.card_title {
+  background-color: white;
+  text-align: left;
+  margin-bottom: 13px;
+  margin-top: 8px;
+}
+
+button {
+  width: 103px;
+  height: 23px;
+  background-color: rgb(249, 249, 249);
+  cursor: pointer;
+}
+
+button:hover {
+  background-color: rgb(230, 227, 227);
+}
+
+.card {
+  transition: transform 0.4s;
+  width: 0px;
+}
+
+.card:hover {
+  transform: scale(1.1);
 }
